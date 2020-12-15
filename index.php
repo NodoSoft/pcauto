@@ -34,6 +34,7 @@
         $arr = json_decode($arr,true);
         //file_put_contents("php://stderr", "arreglo es:  ".$arr["banner"]["ruta2"]);
         file_put_contents("php://stderr", "arreglo es:  ".$arr);
+        http_response_code(200);
 
         // Nombre del subdominio y del onepage
         $nombreSubdominio = "aaa";
